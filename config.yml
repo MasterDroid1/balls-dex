@@ -1,0 +1,159 @@
+# yaml-language-server: $schema=json-config-ref.json
+
+# paste the bot token after regenerating it here
+discord-token: "MTM5ODM1NzYxNTgyMTcyMTYyMA.G2XELJ.igkgZ0OCfmFPfv21L8fKG8bbWMFyPQBxJN-QG8"
+
+# prefix for old-style text commands, mostly unused
+text-prefix: b.
+
+# define the elements given with the /about command
+about:
+
+  # define the beginning of the description of /about
+  # the other parts is automatically generated
+  description: >
+    Collect countryballs on Discord, exchange them and battle with friends!
+
+  # override this if you have a fork
+  github-link: https://github.com/laggron42/BallsDex-DiscordBot
+
+  # valid invite for a Discord server
+  discord-invite: https://discord.gg/INVITE_CODE
+
+  terms-of-service: https://gist.github.com/ # replace with your own link
+  privacy-policy: https://gist.github.com/ # replace with your own link
+
+# WORK IN PROGRESS, DOES NOT FULLY WORK
+# override the name "countryball" in the bot
+collectible-name: countryball
+
+# WORK IN PROGRESS, DOES NOT FULLY WORK
+# override the name "countryballs" in the bot
+plural-collectible-name: countryballs
+
+# WORK IN PROGRESS, DOES NOT FULLY WORK
+# override the name "BallsDex" in the bot
+bot-name: BallsDex
+
+# players group cog command name
+# this is /balls by default, but you can change it for /animals or /rocks for example
+players-group-cog-name: balls
+
+# emoji used to represent a favorited collectible
+favorited-collectible-emoji: ❤️
+
+# maximum amount of favorites that are allowed
+max-favorites: 50
+
+# the highest/lowest possible attack bonus, do not leave empty
+# this cannot be smaller than 0, enter a positive number
+max-attack-bonus: 20
+
+# the highest/lowest possible health bonus, do not leave empty
+# this cannot be smaller than 0, enter a positive number
+max-health-bonus: 20
+
+# enables the /admin command
+admin-command:
+
+  # all items here are list of IDs. example on how to write IDs in a list:
+  # guild-ids:
+  #   - 1049118743101452329
+  #   - 1078701108500897923
+
+  # list of guild IDs where /admin should be registered
+  guild-ids:
+    - 1336717390309888061
+
+  # list of role IDs having full access to /admin
+  root-role-ids:
+    - 1338151894757015583
+
+  # list of role IDs having partial access to /admin
+  admin-role-ids:
+    - 1338151894757015583
+
+# log channel for moderation actions
+log-channel:
+
+# manage bot ownership
+owners:
+  # if enabled and the application is under a team, all team members will be considered as owners
+  team-members-are-owners: false
+
+  # a list of IDs that must be considered owners in addition to the application/team owner
+  co-owners:
+
+
+# Admin panel related settings
+admin-panel:
+
+    # to enable Discord OAuth2 login, fill this
+    # client ID of the Discord application (not the bot's user ID)
+    client-id: 
+    # client secret of the Discord application (this is not the bot token)
+    client-secret: 
+
+    # to get admin notifications from the admin panel, create a Discord webhook and paste the url
+    webhook-url: 
+
+    # this will provide some hyperlinks to the admin panel when using /admin commands
+    # set to an empty string to disable those links entirely
+    url: http://localhost:8000
+
+# list of packages that will be loaded
+packages:
+  - ballsdex.packages.admin
+  - ballsdex.packages.balls
+  - ballsdex.packages.bet
+  - ballsdex.packages.config
+  - ballsdex.packages.countryballs
+  - ballsdex.packages.info
+  - ballsdex.packages.players
+  - ballsdex.packages.trade
+  - ballsdex.packages.boxes
+  - ballsdex.packages.profiles
+  - ballsdex.packages.broadcast
+  - ballsdex.packages.owners
+  - ballsdex.packages.picks
+
+# prometheus metrics collection, leave disabled if you don't know what this is
+prometheus:
+  enabled: false
+  host: "0.0.0.0"
+  port: 15260
+
+spawn-manager: ballsdex.packages.countryballs.spawn.SpawnManager
+
+# sentry details, leave empty if you don't know what this is
+# https://sentry.io/ for error tracking
+sentry:
+    dsn: ""
+    environment: "production"
+
+catch:
+  # Add any number of messages to each of these categories. The bot will select a random
+  # one each time.
+  # {user} is mention. {collectible} is collectible name. {ball} is ball name, and 
+  # {collectibles} is collectible plural.
+
+  # the message that appears when a user catches a ball 
+  caught_msgs:
+    - "{user} You caught **{ball}**!"
+
+  # the message that appears when a user gets the name wrong
+  # here and only here, you can use {wrong} to show the wrong name that was entered
+  # note that a user can put whatever they want into that field, so be careful
+  wrong_msgs:
+    # - {user} Wrong name! You put: {wrong}
+    - "{user} Wrong name!"
+
+  # the message that appears above the spawn art
+  # {user} is not available here, because who would it ping?
+  spawn_msgs:
+    - "A wild {collectible} appeared!"
+
+  # the message that appears when a user is to slow to catch a ball
+  slow_msgs:
+    - "{user} Sorry, this {collectible} was caught already!"
+  

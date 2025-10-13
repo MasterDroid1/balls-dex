@@ -1,0 +1,2211 @@
+[2025-07-25 17:31:57] ERROR ballsdex: Token not found!
+[2025-07-25 17:40:00] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-25 17:40:00] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-25 17:40:00] INFO discord.client: logging in using static token
+[2025-07-25 17:40:00] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-25 17:40:01] CRITICAL ballsdex: The main bot task didn't handle an exception and has crashed
+Traceback (most recent call last):
+  File "/code/ballsdex/__main__.py", line 220, in bot_exception_handler
+    bot_task.result()
+    ~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/discord/client.py", line 824, in start
+    await self.connect(reconnect=reconnect)
+  File "/usr/local/lib/python3.13/site-packages/discord/shard.py", line 531, in connect
+    raise item.error
+discord.errors.PrivilegedIntentsRequired: Shard ID 0 is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+[2025-07-25 17:40:01] WARNING ballsdex: Attempting to die as gracefully as possible...
+[2025-07-25 17:40:01] INFO ballsdex: Shutting down the bot...
+[2025-07-25 17:41:24] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-25 17:41:24] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-25 17:41:24] INFO discord.client: logging in using static token
+[2025-07-25 17:41:24] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-25 17:41:25] CRITICAL ballsdex: The main bot task didn't handle an exception and has crashed
+Traceback (most recent call last):
+  File "/code/ballsdex/__main__.py", line 220, in bot_exception_handler
+    bot_task.result()
+    ~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/discord/client.py", line 824, in start
+    await self.connect(reconnect=reconnect)
+  File "/usr/local/lib/python3.13/site-packages/discord/shard.py", line 531, in connect
+    raise item.error
+discord.errors.PrivilegedIntentsRequired: Shard ID 0 is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+[2025-07-25 17:41:25] WARNING ballsdex: Attempting to die as gracefully as possible...
+[2025-07-25 17:41:25] INFO ballsdex: Shutting down the bot...
+[2025-07-25 17:42:50] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-25 17:42:50] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-25 17:42:50] INFO discord.client: logging in using static token
+[2025-07-25 17:42:51] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-25 17:42:51] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 82e62ea3e04d583598b563fa70627c8c).
+[2025-07-25 17:42:53] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-25 17:42:54] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-25 17:42:54] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-25 17:42:54] INFO ballsdex.core.bot: Loading packages...
+[2025-07-25 17:42:54] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-25 17:42:54] INFO ballsdex.core.bot: Packages loaded: admin, balls, config, countryballs, info, players, trade
+[2025-07-25 17:42:58] INFO ballsdex.core.bot: Synced 7 commands.
+[2025-07-25 17:47:38] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 82e62ea3e04d583598b563fa70627c8c.
+[2025-07-25 18:19:50] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 82e62ea3e04d583598b563fa70627c8c.
+[2025-07-25 18:31:39] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-25 18:35:51] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-25 18:38:06] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-25 18:38:49] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-25 18:38:49] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-25 18:38:49] INFO discord.client: logging in using static token
+[2025-07-25 18:38:50] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-25 18:38:50] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 252c9e7ddde022d09f04ddff799e0a73).
+[2025-07-25 18:38:52] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-25 18:38:53] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-25 18:38:53] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-25 18:38:53] INFO ballsdex.core.bot: Loading packages...
+[2025-07-25 18:38:53] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-25 18:38:53] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade
+[2025-07-25 18:38:55] INFO ballsdex.core.bot: Synced 7 commands.
+[2025-07-25 18:38:57] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-25 18:39:41] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-25 18:43:17] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-25 18:43:50] ERROR ballsdex.core.bot: Error in slash command admin balls spawn
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 195, in spawn
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-25 18:44:18] ERROR ballsdex.core.bot: Error in slash command admin balls spawn
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 195, in spawn
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-25 18:44:23] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-25 18:44:36] ERROR ballsdex.core.bot: Error in slash command admin balls spawn
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 195, in spawn
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-25 19:44:47] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-25 20:31:42] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-25 20:37:30] ERROR ballsdex.core.bot: Error in slash command bet bulk add
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/bet/cog.py", line 283, in bulk_add
+    await view.start(
+    ...<3 lines>...
+    )
+  File "/code/ballsdex/packages/bet/menu.py", line 442, in start
+    await self.create_pages()
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'BulkAddView' object has no attribute 'create_pages'
+[2025-07-25 20:37:46] ERROR ballsdex.core.bot: Error in slash command bet bulk add
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/bet/cog.py", line 283, in bulk_add
+    await view.start(
+    ...<3 lines>...
+    )
+  File "/code/ballsdex/packages/bet/menu.py", line 442, in start
+    await self.create_pages()
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'BulkAddView' object has no attribute 'create_pages'
+[2025-07-25 23:07:30] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-25 23:41:20] ERROR ballsdex.core.bot: Error in slash command admin balls spawn
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 195, in spawn
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-26 00:05:07] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-26 00:43:28] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-26 01:02:27] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-26 01:38:55] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-26 03:55:46] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-26 05:51:55] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-26 07:01:54] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-26 09:41:54] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-26 11:57:22] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-26 13:33:00] ERROR ballsdex.core.bot: Error in slash command bet bulk add
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/bet/cog.py", line 283, in bulk_add
+    await view.start(
+    ...<3 lines>...
+    )
+  File "/code/ballsdex/packages/bet/menu.py", line 442, in start
+    interaction: discord.Interaction["BallsDexBot"],
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'BulkAddView' object has no attribute 'create_pages'
+[2025-07-26 13:33:04] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 252c9e7ddde022d09f04ddff799e0a73.
+[2025-07-26 13:33:59] ERROR ballsdex.core.bot: Error in slash command bet bulk add
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/bet/cog.py", line 283, in bulk_add
+    await view.start(
+    ...<3 lines>...
+    )
+  File "/code/ballsdex/packages/bet/menu.py", line 442, in start
+    interaction: discord.Interaction["BallsDexBot"],
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'BulkAddView' object has no attribute 'create_pages'
+[2025-07-26 14:04:04] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-26 14:04:52] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-26 14:04:52] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-26 14:04:52] INFO discord.client: logging in using static token
+[2025-07-26 14:04:53] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-26 14:04:54] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 259dafea826a48b5da526f02535ce986).
+[2025-07-26 14:04:56] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-26 14:04:56] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-26 14:04:56] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-26 14:04:56] INFO ballsdex.core.bot: Loading packages...
+[2025-07-26 14:04:56] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-26 14:04:56] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-26 14:04:58] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-26 14:05:00] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-26 14:11:06] INFO ballsdex.packages.boxes.cog: [WEEKLY PACK] paqueta0866 (1376134700271140874) received bob (Rarity: 0.5) | Account created: 2025-05-25 09:47:59Footballer ID: `#1`
+[2025-07-26 14:12:11] INFO ballsdex.packages.boxes.cog: [PACK GIFT] chelseaman6 (749658746535280771) gave 3 packs to paqueta0866 (1376134700271140874) | New balance: 3
+[2025-07-26 14:12:29] ERROR ballsdex.packages.admin.balls: Failed to create a new ball: emoji_id is non nullable field, but null was passed
+[2025-07-26 14:15:07] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-26 14:16:02] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-26 14:16:02] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-26 14:16:02] INFO discord.client: logging in using static token
+[2025-07-26 14:16:03] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-26 14:16:02] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 422e1dd4c890099a902bed02ee5752a2).
+[2025-07-26 14:16:04] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-26 14:16:04] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-26 14:16:05] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-26 14:16:05] INFO ballsdex.core.bot: Loading packages...
+[2025-07-26 14:16:05] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-26 14:16:05] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-26 14:16:07] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-26 14:16:08] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-26 14:18:38] ERROR ballsdex.packages.admin.balls: Failed to create a new ball: emoji_id is non nullable field, but null was passed
+[2025-07-26 14:20:02] ERROR ballsdex.packages.admin.balls: Failed to create a new ball: collection_card: Value must not be None
+[2025-07-26 14:21:53] ERROR ballsdex.packages.admin.balls: Failed to create a new ball: collection_card: Value must not be None
+[2025-07-26 14:25:25] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-26 14:26:21] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-26 14:26:21] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-26 14:26:21] INFO discord.client: logging in using static token
+[2025-07-26 14:26:22] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-26 14:26:22] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: b4754a817da98d4d84a843043c2818a4).
+[2025-07-26 14:26:24] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-26 14:26:24] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-26 14:26:25] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-26 14:26:25] INFO ballsdex.core.bot: Loading packages...
+[2025-07-26 14:26:25] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-26 14:26:25] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-26 14:26:27] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-26 14:26:28] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-26 14:29:46] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-26 14:30:18] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received spain (Rarity: 30.0) | Account created: 2025-05-25 09:47:59 | Daily use 2/3 | Footballer ID: `#2`
+[2025-07-26 14:30:30] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received spain (Rarity: 30.0) | Account created: 2025-05-25 09:47:59 | Daily use 3/3 | Footballer ID: `#2`
+[2025-07-26 14:32:53] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-26 14:33:15] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received portugal (Rarity: 25.0) | Account created: 2020-08-30 15:56:13 | Daily use 1/3 | Footballer ID: `#3`
+[2025-07-26 14:33:31] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received spain (Rarity: 30.0) | Account created: 2020-08-30 15:56:13 | Daily use 2/3 | Footballer ID: `#2`
+[2025-07-26 14:33:48] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received spain (Rarity: 30.0) | Account created: 2020-08-30 15:56:13 | Daily use 3/3 | Footballer ID: `#2`
+[2025-07-26 14:34:38] INFO ballsdex.packages.boxes.cog: [WEEKLY PACK] chelseaman6 (749658746535280771) received bob (Rarity: 0.5) | Account created: 2020-08-30 15:56:13Footballer ID: `#1`
+[2025-07-26 14:36:20] INFO ballsdex.packages.boxes.cog: [PACKLY] chelseaman6 (749658746535280771) used pack and received spain (Rarity: 30.0) | Remaining packs: 0 | Account created: 2020-08-30 15:56:13 | Footballer ID: `#2`
+[2025-07-26 14:36:43] INFO ballsdex.packages.boxes.cog: [PACKLY] paqueta0866 (1376134700271140874) used pack and received portugal (Rarity: 25.0) | Remaining packs: 0 | Account created: 2025-05-25 09:47:59 | Footballer ID: `#3`
+[2025-07-26 15:33:16] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-26 15:34:12] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-26 15:34:12] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-26 15:34:12] INFO discord.client: logging in using static token
+[2025-07-26 15:34:12] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-26 15:34:13] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: c5d9ba68f289c76abb150cfdd15173bf).
+[2025-07-26 15:34:15] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-26 15:34:15] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-26 15:34:15] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-26 15:34:15] INFO ballsdex.core.bot: Loading packages...
+[2025-07-26 15:34:16] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-26 15:34:16] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-26 15:34:17] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-26 15:34:19] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-26 15:35:06] INFO ballsdex.packages.boxes.cog: [WEEKLY PACK] paqueta0866 (1376134700271140874) received bob (Rarity: 0.5) | Account created: 2025-05-25 09:47:59Footballer ID: `#1`
+[2025-07-26 15:36:05] INFO ballsdex.packages.boxes.cog: [PACK OPEN] paqueta0866 (1376134700271140874) received spain (Rarity: 30.0) | Account created: 2025-05-25 09:47:59Footballer ID: `#2` | Packs left: 0
+[2025-07-26 15:36:20] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received spain (Rarity: 30.0) | Account created: 2025-05-25 09:47:59 | Daily use 1/3 | Footballer ID: `#2`
+[2025-07-26 16:16:21] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-26 16:17:18] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-26 16:17:18] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-26 16:17:18] INFO discord.client: logging in using static token
+[2025-07-26 16:17:19] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-26 16:17:19] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 69b82d182553065ca60fa679f3def376).
+[2025-07-26 16:17:21] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-26 16:17:22] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-26 16:17:22] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-26 16:17:22] INFO ballsdex.core.bot: Loading packages...
+[2025-07-26 16:17:22] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-26 16:17:22] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-26 16:17:24] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-26 16:17:25] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-26 16:18:45] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received portugal (Rarity: 25.0) | Account created: 2025-05-25 09:47:59 | Daily use 1/3 | Footballer ID: `#3`
+[2025-07-26 16:19:03] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received portugal (Rarity: 25.0) | Account created: 2025-05-25 09:47:59 | Daily use 2/3 | Footballer ID: `#3`
+[2025-07-26 16:19:19] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received spain (Rarity: 30.0) | Account created: 2025-05-25 09:47:59 | Daily use 3/3 | Footballer ID: `#2`
+[2025-07-26 16:41:05] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received spain (Rarity: 30.0) | Account created: 2020-08-30 15:56:13 | Daily use 1/3 | Footballer ID: `#2`
+[2025-07-26 16:41:14] INFO ballsdex.packages.boxes.cog: [WEEKLY PACK] paqueta0866 (1376134700271140874) received bob (Rarity: 0.5) | Account created: 2025-05-25 09:47:59Footballer ID: `#1`
+[2025-07-26 16:41:17] INFO ballsdex.packages.boxes.cog: [WEEKLY PACK] chelseaman6 (749658746535280771) received bob (Rarity: 0.5) | Account created: 2020-08-30 15:56:13Footballer ID: `#1`
+[2025-07-26 17:28:12] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 69b82d182553065ca60fa679f3def376.
+[2025-07-26 19:14:41] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 69b82d182553065ca60fa679f3def376.
+[2025-07-26 20:55:43] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-28 17:45:23] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-28 17:45:23] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-28 17:45:23] INFO discord.client: logging in using static token
+[2025-07-28 17:45:24] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-28 17:45:24] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: f2364d812ef175354a386b2b13d46925).
+[2025-07-28 17:45:26] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-28 17:45:26] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-28 17:45:26] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-28 17:45:26] INFO ballsdex.core.bot: Loading packages...
+[2025-07-28 17:45:26] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-28 17:45:26] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-28 17:45:28] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-28 17:45:29] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-28 18:05:16] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-28 18:06:20] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-28 18:06:20] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-28 18:06:20] INFO discord.client: logging in using static token
+[2025-07-28 18:06:20] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-28 18:06:21] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: c362506c4c97e1c9035873988440e525).
+[2025-07-28 18:06:23] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-28 18:06:23] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-28 18:06:23] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-28 18:06:23] INFO ballsdex.core.bot: Loading packages...
+[2025-07-28 18:06:24] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-28 18:06:24] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-28 18:06:25] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-28 18:06:26] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-28 18:33:35] INFO discord.gateway: Shard ID 0 has successfully RESUMED session c362506c4c97e1c9035873988440e525.
+[2025-07-28 19:22:42] ERROR ballsdex.core.bot: Error in slash command admin balls spawn
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 195, in spawn
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-28 21:05:55] INFO discord.gateway: Shard ID 0 has successfully RESUMED session c362506c4c97e1c9035873988440e525.
+[2025-07-28 21:19:46] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-28 22:26:43] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-28 22:26:43] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-28 22:26:43] INFO discord.client: logging in using static token
+[2025-07-28 22:26:43] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-28 22:26:44] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 0ec0596ab6a56f3fef2f95962ce7bb64).
+[2025-07-28 22:26:46] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-28 22:26:46] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-28 22:26:46] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-28 22:26:46] INFO ballsdex.core.bot: Loading packages...
+[2025-07-28 22:26:47] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-28 22:26:47] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-28 22:26:50] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-28 22:26:51] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 00:01:04] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 01:31:14] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 01:31:14] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 01:31:14] INFO discord.client: logging in using static token
+[2025-07-29 01:31:14] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 01:31:15] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4a1a0b482839210e842f576dde07ee32).
+[2025-07-29 01:31:17] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 01:31:17] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 01:31:18] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 01:31:18] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 01:31:18] ERROR ballsdex.core.bot: Failed to load package admin
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/code/ballsdex/packages/admin/__init__.py", line 6, in <module>
+    from ballsdex.packages.admin.cog import Admin
+  File "/code/ballsdex/packages/admin/cog.py", line 16, in <module>
+    from .history import History as HistoryGroup
+  File "/code/ballsdex/packages/admin/history.py", line 12, in <module>
+    from ballsdex.packages.trade.display import TradeViewFormat, fill_trade_embed_fields
+  File "/code/ballsdex/packages/trade/__init__.py", line 3, in <module>
+    from ballsdex.packages.trade.cog import Trade
+  File "/code/ballsdex/packages/trade/cog.py", line 16, in <module>
+    from ballsdex.core.utils.sorting import FilteringChoices, SortingChoices, filter_balls, sort_balls
+ImportError: cannot import name 'FilteringChoices' from 'ballsdex.core.utils.sorting' (/code/ballsdex/core/utils/sorting.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.admin' raised an error: ImportError: cannot import name 'FilteringChoices' from 'ballsdex.core.utils.sorting' (/code/ballsdex/core/utils/sorting.py)
+[2025-07-29 01:31:18] ERROR ballsdex.core.bot: Failed to load package balls
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/code/ballsdex/packages/balls/__init__.py", line 3, in <module>
+    from ballsdex.packages.balls.cog import Balls
+  File "/code/ballsdex/packages/balls/cog.py", line 24, in <module>
+    from ballsdex.core.utils.sorting import FilteringChoices, SortingChoices, filter_balls, sort_balls
+ImportError: cannot import name 'FilteringChoices' from 'ballsdex.core.utils.sorting' (/code/ballsdex/core/utils/sorting.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.balls' raised an error: ImportError: cannot import name 'FilteringChoices' from 'ballsdex.core.utils.sorting' (/code/ballsdex/core/utils/sorting.py)
+[2025-07-29 01:31:18] ERROR ballsdex.core.bot: Failed to load package bet
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/code/ballsdex/packages/bet/__init__.py", line 3, in <module>
+    from ballsdex.packages.bet.cog import Bet
+  File "/code/ballsdex/packages/bet/cog.py", line 23, in <module>
+    from ballsdex.packages.bet.menu import BetMenu
+  File "/code/ballsdex/packages/bet/menu.py", line 13, in <module>
+    from ballsdex.core.models import BallInstance, Player, TradeCooldownPolicy
+ImportError: cannot import name 'TradeCooldownPolicy' from 'ballsdex.core.models' (/code/ballsdex/core/models.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.bet' raised an error: ImportError: cannot import name 'TradeCooldownPolicy' from 'ballsdex.core.models' (/code/ballsdex/core/models.py)
+[2025-07-29 01:31:18] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 01:31:18] ERROR ballsdex.core.bot: Failed to load package players
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/code/ballsdex/packages/players/__init__.py", line 3, in <module>
+    from ballsdex.packages.players.cog import Player
+  File "/code/ballsdex/packages/players/cog.py", line 21, in <module>
+    from ballsdex.core.models import PrivacyPolicy, Trade, TradeCooldownPolicy, TradeObject, balls
+ImportError: cannot import name 'TradeCooldownPolicy' from 'ballsdex.core.models' (/code/ballsdex/core/models.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.players' raised an error: ImportError: cannot import name 'TradeCooldownPolicy' from 'ballsdex.core.models' (/code/ballsdex/core/models.py)
+[2025-07-29 01:31:18] ERROR ballsdex.core.bot: Failed to load package trade
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/code/ballsdex/packages/trade/__init__.py", line 3, in <module>
+    from ballsdex.packages.trade.cog import Trade
+  File "/code/ballsdex/packages/trade/cog.py", line 16, in <module>
+    from ballsdex.core.utils.sorting import FilteringChoices, SortingChoices, filter_balls, sort_balls
+ImportError: cannot import name 'FilteringChoices' from 'ballsdex.core.utils.sorting' (/code/ballsdex/core/utils/sorting.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.trade' raised an error: ImportError: cannot import name 'FilteringChoices' from 'ballsdex.core.utils.sorting' (/code/ballsdex/core/utils/sorting.py)
+[2025-07-29 01:31:18] INFO ballsdex.core.bot: Packages loaded: config, countryballs, info, boxes
+[2025-07-29 01:31:18] INFO ballsdex.core.bot: Synced 4 commands.
+[2025-07-29 01:31:19] INFO ballsdex.core.bot: Synced 0 admin commands for guild 1336717390309888061.
+[2025-07-29 01:35:55] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 01:36:30] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 01:36:30] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 01:36:30] INFO discord.client: logging in using static token
+[2025-07-29 01:36:31] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 01:36:31] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4a46d4e74541a0e96d94d3b808f7963a).
+[2025-07-29 01:36:33] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 01:36:33] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 01:36:33] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 01:36:33] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 01:36:33] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 01:36:33] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 01:36:36] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 01:36:38] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 01:38:12] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 4a46d4e74541a0e96d94d3b808f7963a.
+[2025-07-29 01:42:26] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 01:43:15] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 01:43:15] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 01:43:15] INFO discord.client: logging in using static token
+[2025-07-29 01:43:15] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 01:43:16] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 6972619043bfa462a43edcc9be86f78c).
+[2025-07-29 01:43:18] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 01:43:18] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 01:43:18] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 01:43:18] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 01:43:19] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 01:43:19] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 01:43:20] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 01:43:51] ERROR ballsdex.core.bot: Error in event on_ready. Args: . Kwargs: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/code/ballsdex/core/bot.py", line 357, in on_ready
+    synced_commands = await self.tree.sync(guild=guild)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py", line 1131, in sync
+    data = await self._http.bulk_upsert_guild_commands(self.client.application_id, guild.id, payload=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/http.py", line 760, in request
+    raise DiscordServerError(response, data)
+discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): 503: Service Unavailable
+[2025-07-29 01:44:06] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 01:44:38] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 01:44:38] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 01:44:38] INFO discord.client: logging in using static token
+[2025-07-29 01:44:39] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 01:44:39] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 5b108fc6f0b883ed3d84685115ec35d5).
+[2025-07-29 01:44:42] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 01:44:42] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 01:44:42] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 01:44:42] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 01:44:42] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 01:44:42] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 01:44:44] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 01:44:45] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 01:50:26] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 01:50:52] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 01:50:52] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 01:50:52] INFO discord.client: logging in using static token
+[2025-07-29 01:50:52] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 01:50:53] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 5c52017a503641dbcaca8f37f75375da).
+[2025-07-29 01:50:54] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 01:50:54] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 01:50:55] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 01:50:55] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 01:50:55] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 01:50:55] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 01:50:56] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 01:50:57] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 02:00:16] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 02:01:07] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 02:01:07] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 02:01:07] INFO discord.client: logging in using static token
+[2025-07-29 02:01:07] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 02:01:08] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: ad3dd68161f11f843d18734bd3a016f5).
+[2025-07-29 02:01:10] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 02:01:10] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 02:01:10] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 02:01:10] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 02:01:10] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 02:01:10] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 02:01:12] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 02:01:13] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 02:11:40] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 02:12:29] ERROR ballsdex.core.bot: Error in slash command admin balls spawn
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 195, in spawn
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-29 11:53:46] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 11:53:46] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 11:53:46] INFO discord.client: logging in using static token
+[2025-07-29 11:53:46] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 11:53:47] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: a7dde0d7259063fb13dc557f44903b02).
+[2025-07-29 11:53:49] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 11:53:49] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 11:53:50] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 11:53:50] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 11:53:50] ERROR ballsdex.core.bot: Failed to load package bet
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/code/ballsdex/packages/bet/__init__.py", line 3, in <module>
+    from ballsdex.packages.bet.cog import Bet
+  File "/code/ballsdex/packages/bet/cog.py", line 22, in <module>
+    from ballsdex.packages.bet.bet_user import BettingUser
+  File "/code/ballsdex/packages/bet/bet_user.py", line 1
+    rom dataclasses import dataclass, field
+        ^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.bet' raised an error: SyntaxError: invalid syntax (bet_user.py, line 1)
+[2025-07-29 11:53:50] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 11:53:50] INFO ballsdex.core.bot: Packages loaded: admin, balls, config, countryballs, info, players, trade, boxes
+[2025-07-29 11:53:51] INFO ballsdex.core.bot: Synced 7 commands.
+[2025-07-29 11:53:53] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 11:54:55] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 11:55:31] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 11:55:31] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 11:55:31] INFO discord.client: logging in using static token
+[2025-07-29 11:55:31] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 11:55:32] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: d8da2afc5f55d345da4b033341709ca1).
+[2025-07-29 11:55:34] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 11:55:34] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 11:55:34] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 11:55:34] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 11:55:34] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 11:55:34] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 11:55:36] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 11:55:37] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 11:56:14] ERROR ballsdex.core.bot: Error in slash command admin balls spawnrare
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 336, in spawnrare
+    result = await ball.spawn(channel or interaction.channel)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-29 11:56:35] ERROR ballsdex.core.bot: Error in slash command admin balls spawnrare
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 381, in spawnrare
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-29 11:56:44] ERROR ballsdex.core.bot: Error in slash command admin balls spawnrare
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 381, in spawnrare
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-29 12:16:28] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 12:17:10] ERROR ballsdex.core.bot: Error in slash command admin balls spawnrare
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 336, in spawnrare
+    result = await ball.spawn(channel or interaction.channel)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-29 12:19:17] ERROR ballsdex.core.bot: Error in slash command admin balls spawn
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 230, in spawn
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-29 12:19:23] ERROR ballsdex.core.bot: Error in slash command admin balls spawn
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 230, in spawn
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/ballsdex/core/image_generator/src/default.png'
+[2025-07-29 12:22:29] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 12:23:05] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 12:23:05] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 12:23:05] INFO discord.client: logging in using static token
+[2025-07-29 12:23:05] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 12:23:06] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 39341ca95c9cadfe8405cc92e4dc4c55).
+[2025-07-29 12:23:08] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 12:23:08] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 12:23:09] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 12:23:09] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 12:23:09] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 12:23:09] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 12:23:10] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 12:23:11] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 12:23:19] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 12:24:20] ERROR ballsdex.core.bot: Error in slash command admin balls gdrop
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/tortoise/backends/asyncpg/client.py", line 89, in _translate_exceptions
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/tortoise/backends/asyncpg/client.py", line 112, in execute_insert
+    return await connection.fetchrow(query, *values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asyncpg/connection.py", line 748, in fetchrow
+    data = await self._execute(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 206, in bind_execute
+asyncpg.exceptions.NotNullViolationError: null value in column "player_id" of relation "ballinstance" violates not-null constraint
+DETAIL:  Failing row contains (58, 2025-07-29 12:24:20.274285+00, 13, -10, f, null, t, {}, null, null, 4, null, null, null).
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 826, in gdrop
+    instance = await BallInstance.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/tortoise/models.py", line 1210, in create
+    await instance.save(using_db=db, force_create=True)
+  File "/usr/local/lib/python3.13/site-packages/tortoise/models.py", line 996, in save
+    await executor.execute_insert(self)
+  File "/usr/local/lib/python3.13/site-packages/tortoise/backends/base/executor.py", line 188, in execute_insert
+    insert_result = await self.db.execute_insert(self.insert_query, values)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/tortoise/backends/base_postgres/client.py", line 33, in _translate_exceptions
+    return await self._translate_exceptions(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/tortoise/backends/asyncpg/client.py", line 93, in _translate_exceptions
+    raise IntegrityError(exc)
+tortoise.exceptions.IntegrityError: null value in column "player_id" of relation "ballinstance" violates not-null constraint
+DETAIL:  Failing row contains (58, 2025-07-29 12:24:20.274285+00, 13, -10, f, null, t, {}, null, null, 4, null, null, null).
+[2025-07-29 12:30:17] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 12:30:54] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 12:30:54] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 12:30:54] INFO discord.client: logging in using static token
+[2025-07-29 12:30:54] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 12:30:55] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 6ee4db0452370c6f71af527e59781c70).
+[2025-07-29 12:30:57] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 12:30:57] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 12:30:57] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 12:30:57] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 12:30:58] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 12:30:58] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 12:30:59] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 12:31:00] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 12:32:23] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 12:34:36] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 12:35:27] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 12:35:27] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 12:35:27] INFO discord.client: logging in using static token
+[2025-07-29 12:35:28] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 12:35:29] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 55c213ae0c780ba9996a0ffe6890359b).
+[2025-07-29 12:35:31] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 12:35:31] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 12:35:31] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 12:35:31] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 12:35:31] ERROR ballsdex.core.bot: Failed to load package admin
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/code/ballsdex/packages/admin/__init__.py", line 6, in <module>
+    from ballsdex.packages.admin.cog import Admin
+  File "/code/ballsdex/packages/admin/cog.py", line 13, in <module>
+    from .balls import Balls as BallsGroup
+  File "/code/ballsdex/packages/admin/balls.py", line 248
+    @app_commands.command()
+                           ^
+IndentationError: unindent does not match any outer indentation level
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.admin' raised an error: IndentationError: unindent does not match any outer indentation level (balls.py, line 248)
+[2025-07-29 12:35:31] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 12:35:31] INFO ballsdex.core.bot: Packages loaded: balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 12:35:33] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 12:35:33] INFO ballsdex.core.bot: Synced 0 admin commands for guild 1336717390309888061.
+[2025-07-29 12:36:46] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 12:37:12] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 12:37:12] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 12:37:12] INFO discord.client: logging in using static token
+[2025-07-29 12:37:12] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 12:37:13] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 90a67a9b59e5fce7e1b6c296b5c82773).
+[2025-07-29 12:37:15] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 12:37:15] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 12:37:15] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 12:37:15] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 12:37:15] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 12:37:15] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 12:37:17] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 12:37:18] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 12:37:23] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 12:58:52] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 23:48:01] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 23:48:01] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 23:48:01] INFO discord.client: logging in using static token
+[2025-07-29 23:48:01] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 23:48:02] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4d7a11d38ad3912ba5e15aa1fb3ec78d).
+[2025-07-29 23:48:04] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 23:48:04] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 23:48:04] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 23:48:04] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 23:48:04] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 23:48:04] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 23:48:06] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 23:48:07] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 23:49:44] ERROR ballsdex.core.bot: Error in slash command admin balls spawnrare
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 379, in spawnrare
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/IMG_1633_0JAsCuN.png'
+[2025-07-29 23:49:51] ERROR ballsdex.core.bot: Error in slash command admin balls spawn
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 228, in spawn
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/IMG_1668_VzwCw9m.png'
+[2025-07-29 23:50:26] ERROR ballsdex.core.bot: Error in slash command admin balls spawnrare
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 334, in spawnrare
+    result = await ball.spawn(channel or interaction.channel)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/IMG_1633_0JAsCuN.png'
+[2025-07-29 23:50:43] ERROR ballsdex.core.bot: Error in slash command balls info
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/balls/cog.py", line 548, in info
+    content, original_file, view = await countryball.prepare_for_message(interaction)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/core/models.py", line 380, in prepare_for_message
+    buffer = await interaction.client.loop.run_in_executor(pool, self.draw_card)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/code/ballsdex/core/models.py", line 333, in draw_card
+    image, kwargs = draw_card(self)
+                    ~~~~~~~~~^^^^^^
+  File "/code/ballsdex/core/image_generator/image_gen.py", line 133, in draw_card
+    artwork = Image.open(media_path + ball.collection_card).convert("RGBA")
+              ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/PIL/Image.py", line 3513, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/IMG_1633.png'
+[2025-07-29 23:52:05] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-29 23:52:33] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-29 23:52:33] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-29 23:52:33] INFO discord.client: logging in using static token
+[2025-07-29 23:52:34] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-29 23:52:34] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 5b6232dcbd92679bd2c6df6a72c2f697).
+[2025-07-29 23:52:36] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-29 23:52:37] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-29 23:52:37] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-29 23:52:37] INFO ballsdex.core.bot: Loading packages...
+[2025-07-29 23:52:37] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-29 23:52:37] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-29 23:52:39] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-29 23:52:40] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-29 23:53:23] ERROR ballsdex.core.commands: Failed to reload extension profile
+Traceback (most recent call last):
+  File "/code/ballsdex/core/commands.py", line 68, in reload_package
+    await self.bot.reload_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1118, in reload_extension
+    raise errors.ExtensionNotLoaded(name)
+discord.ext.commands.errors.ExtensionNotLoaded: Extension 'profile' has not been loaded.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 957, in _load_from_module_spec
+    setup = getattr(lib, 'setup')
+AttributeError: module 'profile' has no attribute 'setup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/commands.py", line 83, in reload
+    await self.reload_package(package)
+  File "/code/ballsdex/core/commands.py", line 70, in reload_package
+    await self.bot.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 960, in _load_from_module_spec
+    raise errors.NoEntryPointError(key)
+discord.ext.commands.errors.NoEntryPointError: Extension 'profile' has no 'setup' function.
+[2025-07-29 23:55:02] ERROR ballsdex.core.bot: Error in slash command balls frame
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/balls/cog.py", line 173, in frame
+    overlay_img = Image.open(overlay_path).convert("RGBA")
+                  ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/PIL/Image.py", line 3513, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/code/ballsdex/packages/balls/overlay/shapeshifterdesign.png'
+[2025-07-30 00:01:42] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-30 00:02:21] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-30 00:02:21] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-30 00:02:21] INFO discord.client: logging in using static token
+[2025-07-30 00:02:21] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-30 00:02:22] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 771bdc0a1b59f95949b8d8cfecf99685).
+[2025-07-30 00:02:24] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-30 00:02:24] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-30 00:02:25] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-30 00:02:25] INFO ballsdex.core.bot: Loading packages...
+[2025-07-30 00:02:25] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-30 00:02:25] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes
+[2025-07-30 00:02:26] INFO ballsdex.core.bot: Synced 8 commands.
+[2025-07-30 00:02:27] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-30 00:04:32] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-30 00:04:59] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-30 00:04:59] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-30 00:04:59] INFO discord.client: logging in using static token
+[2025-07-30 00:05:00] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-30 00:05:01] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 358f03d750d75f1b7874eca35783c9a4).
+[2025-07-30 00:05:03] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-30 00:05:03] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-30 00:05:03] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-30 00:05:03] INFO ballsdex.core.bot: Loading packages...
+[2025-07-30 00:05:03] INFO ballsdex.packages.countryballs: Loaded 0 guilds in cache.
+[2025-07-30 00:05:03] ERROR ballsdex.core.bot: Failed to load package profile
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 963, in _load_from_module_spec
+    await setup(self)
+  File "/code/ballsdex/packages/profile/__init__.py", line 10, in setup
+    await bot.add_cog(ProfileView(bot))
+                      ~~~~~~~~~~~^^^^^
+TypeError: ProfileView.__init__() missing 3 required positional arguments: 'target_user_id', 'profile', and 'interactor_id'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 968, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.profile' raised an error: TypeError: ProfileView.__init__() missing 3 required positional arguments: 'target_user_id', 'profile', and 'interactor_id'
+[2025-07-30 00:05:03] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, broadcast, owners
+[2025-07-30 00:05:06] INFO ballsdex.core.bot: Synced 11 commands.
+[2025-07-30 00:05:07] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-30 00:05:16] ERROR ballsdex.core.commands: Failed to reload extension profile
+Traceback (most recent call last):
+  File "/code/ballsdex/core/commands.py", line 68, in reload_package
+    await self.bot.reload_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1118, in reload_extension
+    raise errors.ExtensionNotLoaded(name)
+discord.ext.commands.errors.ExtensionNotLoaded: Extension 'profile' has not been loaded.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 957, in _load_from_module_spec
+    setup = getattr(lib, 'setup')
+AttributeError: module 'profile' has no attribute 'setup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/commands.py", line 83, in reload
+    await self.reload_package(package)
+  File "/code/ballsdex/core/commands.py", line 70, in reload_package
+    await self.bot.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 960, in _load_from_module_spec
+    raise errors.NoEntryPointError(key)
+discord.ext.commands.errors.NoEntryPointError: Extension 'profile' has no 'setup' function.
+[2025-07-30 00:06:15] ERROR ballsdex.core.bot: Error in slash command admin balls spawnrare
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 379, in spawnrare
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/IMG_1633_0JAsCuN.png'
+[2025-07-30 00:06:33] ERROR ballsdex.core.bot: Error in slash command admin balls spawn
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 228, in spawn
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/20221119174231.jpg'
+[2025-07-30 00:06:53] ERROR ballsdex.core.bot: Error in slash command admin balls spawnrare
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 379, in spawnrare
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/IMG_1633_0JAsCuN.png'
+[2025-07-30 00:06:53] ERROR ballsdex.core.bot: Error in slash command admin balls spawnrare
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 379, in spawnrare
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/IMG_1633_0JAsCuN.png'
+[2025-07-30 00:07:57] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-30 00:08:33] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-30 00:08:33] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-30 00:08:33] INFO discord.client: logging in using static token
+[2025-07-30 00:08:34] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-30 00:08:35] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4be70f6b7eaecda92fe5e4daeca863bf).
+[2025-07-30 00:08:37] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-30 00:08:37] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-30 00:08:37] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-30 00:08:37] INFO ballsdex.core.bot: Loading packages...
+[2025-07-30 00:08:37] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-07-30 00:08:37] ERROR ballsdex.core.bot: Failed to load package profile
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1027, in load_extension
+    raise errors.ExtensionNotFound(name)
+discord.ext.commands.errors.ExtensionNotFound: Extension 'ballsdex.packages.profile' could not be loaded or found.
+[2025-07-30 00:08:37] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, broadcast, owners
+[2025-07-30 00:08:39] INFO ballsdex.core.bot: Synced 11 commands.
+[2025-07-30 00:08:41] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-30 00:09:04] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-30 00:09:44] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-30 00:09:44] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-30 00:09:44] INFO discord.client: logging in using static token
+[2025-07-30 00:09:45] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-30 00:09:45] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 00c39879fe2925bf48ed325f49b97cd2).
+[2025-07-30 00:09:47] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-30 00:09:47] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-30 00:09:48] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-30 00:09:48] INFO ballsdex.core.bot: Loading packages...
+[2025-07-30 00:09:48] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-07-30 00:09:48] ERROR ballsdex.core.bot: Failed to load package profile
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1027, in load_extension
+    raise errors.ExtensionNotFound(name)
+discord.ext.commands.errors.ExtensionNotFound: Extension 'ballsdex.packages.profile' could not be loaded or found.
+[2025-07-30 00:09:48] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, broadcast, owners
+[2025-07-30 00:09:51] INFO ballsdex.core.bot: Synced 11 commands.
+[2025-07-30 00:09:52] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-30 00:10:12] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-30 00:10:38] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-30 00:10:38] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-30 00:10:38] INFO discord.client: logging in using static token
+[2025-07-30 00:10:38] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-30 00:10:39] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4b422e96b2622e7ddd4c0434b7a3309e).
+[2025-07-30 00:10:41] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-30 00:10:42] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-30 00:10:42] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-30 00:10:42] INFO ballsdex.core.bot: Loading packages...
+[2025-07-30 00:10:42] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-07-30 00:10:42] ERROR ballsdex.core.bot: Failed to load package profiles
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 963, in _load_from_module_spec
+    await setup(self)
+  File "/code/ballsdex/packages/profiles/__init__.py", line 10, in setup
+    await bot.add_cog(ProfileView(bot))
+                      ~~~~~~~~~~~^^^^^
+TypeError: ProfileView.__init__() missing 3 required positional arguments: 'target_user_id', 'profile', and 'interactor_id'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 968, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.profiles' raised an error: TypeError: ProfileView.__init__() missing 3 required positional arguments: 'target_user_id', 'profile', and 'interactor_id'
+[2025-07-30 00:10:42] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, broadcast, owners
+[2025-07-30 00:10:44] INFO ballsdex.core.bot: Synced 11 commands.
+[2025-07-30 00:10:45] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-30 00:11:27] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-30 00:12:09] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-30 00:12:09] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-30 00:12:09] INFO discord.client: logging in using static token
+[2025-07-30 00:12:10] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-30 00:12:10] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 9caeea90a4fc0e51161f3acbf1c938d6).
+[2025-07-30 00:12:12] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-30 00:12:13] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-30 00:12:13] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-30 00:12:13] INFO ballsdex.core.bot: Loading packages...
+[2025-07-30 00:12:13] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-07-30 00:12:14] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners
+[2025-07-30 00:12:15] INFO ballsdex.core.bot: Synced 12 commands.
+[2025-07-30 00:12:16] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-30 00:12:24] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-30 00:13:12] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-30 00:13:12] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-30 00:13:12] INFO discord.client: logging in using static token
+[2025-07-30 00:13:13] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-30 00:13:13] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 7b9b860dfb3786ca6f3dbdeff60357e4).
+[2025-07-30 00:13:15] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-30 00:13:16] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-30 00:13:16] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-30 00:13:16] INFO ballsdex.core.bot: Loading packages...
+[2025-07-30 00:13:16] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-07-30 00:13:16] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners
+[2025-07-30 00:13:19] INFO ballsdex.core.bot: Synced 12 commands.
+[2025-07-30 00:13:20] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-30 00:15:14] ERROR ballsdex.core.bot: Error in slash command admin balls spawnrare
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 379, in spawnrare
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/IMG_1633_0JAsCuN.png'
+[2025-07-30 00:16:44] ERROR ballsdex.core.bot: Error in slash command admin balls give
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 461, in give
+    content, file, view = await instance.prepare_for_message(interaction)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/core/models.py", line 380, in prepare_for_message
+    buffer = await interaction.client.loop.run_in_executor(pool, self.draw_card)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/code/ballsdex/core/models.py", line 333, in draw_card
+    image, kwargs = draw_card(self)
+                    ~~~~~~~~~^^^^^^
+  File "/code/ballsdex/core/image_generator/image_gen.py", line 133, in draw_card
+    artwork = Image.open(media_path + ball.collection_card).convert("RGBA")
+              ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/PIL/Image.py", line 3513, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/IMG_1633.png'
+[2025-07-30 00:16:50] ERROR ballsdex.core.bot: Error in slash command admin balls spawn
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 228, in spawn
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/Football_Dex_BGs_5-2_0vQhB4n.png'
+[2025-07-30 00:17:26] ERROR ballsdex.core.bot: Error in slash command admin balls spawnrare
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/admin/balls.py", line 379, in spawnrare
+    result = await ball.spawn(channel or interaction.channel)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/IMG_1633_0JAsCuN.png'
+[2025-07-30 00:21:23] ERROR ballsdex.core.bot: Error in slash command balls last
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/balls/cog.py", line 634, in last
+    content, file, view = await countryball.prepare_for_message(interaction)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/core/models.py", line 380, in prepare_for_message
+    buffer = await interaction.client.loop.run_in_executor(pool, self.draw_card)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/code/ballsdex/core/models.py", line 333, in draw_card
+    image, kwargs = draw_card(self)
+                    ~~~~~~~~~^^^^^^
+  File "/code/ballsdex/core/image_generator/image_gen.py", line 133, in draw_card
+    artwork = Image.open(media_path + ball.collection_card).convert("RGBA")
+              ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/PIL/Image.py", line 3513, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/Trophy_Titans_1.png'
+[2025-07-30 00:30:25] ERROR ballsdex.core.bot: Error in event on_message. Args: <Message id=1399911940192473279 channel=<TextChannel id=1397911682759528458 name='code-testing' position=1 nsfw=False news=False category_id=1336717390309888064> type=<MessageType.default: 0> author=<Member id=1376134700271140874 name='paqueta0866' global_name='Paqueta' bot=False nick=None guild=<Guild id=1336717390309888061 name="Alfie's server" shard_id=0 chunked=False member_count=20>> flags=<MessageFlags value=0>>. Kwargs: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/code/ballsdex/packages/countryballs/cog.py", line 73, in on_message
+    await ball.spawn(cast(discord.TextChannel, channel))
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 272, in spawn
+    file=discord.File(file_location, filename=file_name),
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/20221119174231.jpg'
+[2025-07-30 00:30:44] ERROR ballsdex.core.bot: Error in slash command balls last
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/balls/cog.py", line 634, in last
+    content, file, view = await countryball.prepare_for_message(interaction)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/core/models.py", line 380, in prepare_for_message
+    buffer = await interaction.client.loop.run_in_executor(pool, self.draw_card)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/code/ballsdex/core/models.py", line 333, in draw_card
+    image, kwargs = draw_card(self)
+                    ~~~~~~~~~^^^^^^
+  File "/code/ballsdex/core/image_generator/image_gen.py", line 133, in draw_card
+    artwork = Image.open(media_path + ball.collection_card).convert("RGBA")
+              ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/PIL/Image.py", line 3513, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: './admin_panel/media/Trophy_Titans_1.png'
+[2025-07-30 00:34:17] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-30 00:35:38] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-30 00:35:38] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-30 00:35:38] INFO discord.client: logging in using static token
+[2025-07-30 00:35:39] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-30 00:35:39] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: e85b390c1718069fce8d890ca4a7ea79).
+[2025-07-30 00:35:41] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-30 00:35:41] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-30 00:35:42] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-30 00:35:42] INFO ballsdex.core.bot: Loading packages...
+[2025-07-30 00:35:42] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-07-30 00:35:42] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners
+[2025-07-30 00:35:44] INFO ballsdex.core.bot: Synced 12 commands.
+[2025-07-30 00:35:46] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-30 00:46:12] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-31 00:07:16] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-31 00:07:16] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-31 00:07:16] INFO discord.client: logging in using static token
+[2025-07-31 00:07:16] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-31 00:07:17] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4b75b2dfbacbd117f6a55404c5f6b70e).
+[2025-07-31 00:07:19] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-31 00:07:19] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-31 00:07:19] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-31 00:07:19] INFO ballsdex.core.bot: Loading packages...
+[2025-07-31 00:07:20] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-07-31 00:07:20] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners
+[2025-07-31 00:07:21] INFO ballsdex.core.bot: Synced 12 commands.
+[2025-07-31 00:07:22] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-31 00:08:23] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received x3d (Rarity: 30.0) | Account created: 2025-05-25 09:47:59 | Daily use 1/3 | Footballer ID: `#5`
+[2025-07-31 00:08:24] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received x3d (Rarity: 30.0) | Account created: 2025-05-25 09:47:59 | Daily use 2/3 | Footballer ID: `#5`
+[2025-07-31 00:08:36] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received spain (Rarity: 30.0) | Account created: 2025-05-25 09:47:59 | Daily use 3/3 | Footballer ID: `#2`
+[2025-07-31 00:09:40] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received portugal (Rarity: 25.0) | Account created: 2020-08-30 15:56:13 | Daily use 1/3 | Footballer ID: `#3`
+[2025-07-31 00:09:46] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received x3d (Rarity: 30.0) | Account created: 2020-08-30 15:56:13 | Daily use 2/3 | Footballer ID: `#5`
+[2025-07-31 00:09:53] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received x3d (Rarity: 30.0) | Account created: 2020-08-30 15:56:13 | Daily use 3/3 | Footballer ID: `#5`
+[2025-07-31 00:09:54] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received portugal (Rarity: 25.0) | Account created: 2020-08-30 15:56:13 | Daily use 3/3 | Footballer ID: `#3`
+[2025-07-31 00:38:04] ERROR discord.ui.view: Ignoring exception in view <BallSpawnView timeout=180.0 children=1> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='Catch me!' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/resolver.py", line 117, in resolve
+    resp = await self._resolver.getaddrinfo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+aiodns.error.DNSError: (12, 'Timeout while contacting DNS servers')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/resolver.py", line 126, in resolve
+    raise OSError(None, msg) from exc
+OSError: [Errno None] Timeout while contacting DNS servers
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ui/view.py", line 435, in _scheduled_task
+    await item.callback(interaction)
+  File "/code/ballsdex/packages/countryballs/countryball.py", line 172, in catch_button
+    await interaction.response.send_modal(CountryballNamePrompt(self))
+  File "/usr/local/lib/python3.13/site-packages/discord/interactions.py", line 1220, in send_modal
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/discord/webhook/async_.py", line 182, in request
+    async with session.request(
+               ~~~~~~~~~~~~~~~^
+        method, url, data=to_send, headers=headers, params=params, proxy=proxy, proxy_auth=proxy_auth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as response:
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host discord.com:443 ssl:default [Timeout while contacting DNS servers]
+[2025-07-31 01:00:20] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-31 01:01:14] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-31 01:01:14] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-31 01:01:14] INFO discord.client: logging in using static token
+[2025-07-31 01:01:15] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-31 01:01:15] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: ae09c2a8b3384a336fbaaaee801d8c50).
+[2025-07-31 01:01:17] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-31 01:01:17] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-31 01:01:18] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-31 01:01:18] INFO ballsdex.core.bot: Loading packages...
+[2025-07-31 01:01:18] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-07-31 01:01:18] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners
+[2025-07-31 01:01:22] INFO ballsdex.core.bot: Synced 12 commands.
+[2025-07-31 01:01:23] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-31 01:02:12] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received portugal (Rarity: 25.0) | Account created: 2025-05-25 09:47:59 | Daily use 1/3 | Footballer ID: `#3`
+[2025-07-31 01:02:19] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received test1 (Rarity: 7.0) | Account created: 2020-08-30 15:56:13 | Daily use 1/3 | Footballer ID: `#4`
+[2025-07-31 01:02:21] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received test1 (Rarity: 7.0) | Account created: 2025-05-25 09:47:59 | Daily use 2/3 | Footballer ID: `#4`
+[2025-07-31 01:02:32] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received spain (Rarity: 30.0) | Account created: 2025-05-25 09:47:59 | Daily use 3/3 | Footballer ID: `#2`
+[2025-07-31 01:02:51] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received x3d (Rarity: 30.0) | Account created: 2020-08-30 15:56:13 | Daily use 2/3 | Footballer ID: `#5`
+[2025-07-31 01:03:03] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received portugal (Rarity: 25.0) | Account created: 2020-08-30 15:56:13 | Daily use 3/3 | Footballer ID: `#3`
+[2025-07-31 01:07:45] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-31 18:32:32] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-31 18:32:32] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-31 18:32:32] INFO discord.client: logging in using static token
+[2025-07-31 18:32:33] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-31 18:32:33] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: b7e14a0b9637a90353b7e9aa3dc88eb0).
+[2025-07-31 18:32:35] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-31 18:32:36] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-31 18:32:36] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-31 18:32:36] INFO ballsdex.core.bot: Loading packages...
+[2025-07-31 18:32:36] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-07-31 18:32:36] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners
+[2025-07-31 18:32:38] INFO ballsdex.core.bot: Synced 12 commands.
+[2025-07-31 18:32:39] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-31 19:22:34] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-07-31 19:23:37] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-31 19:23:37] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-31 19:23:37] INFO discord.client: logging in using static token
+[2025-07-31 19:23:38] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-31 19:23:38] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 01800454fd661762c8205dd1e4938c49).
+[2025-07-31 19:23:40] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-31 19:23:40] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-31 19:23:41] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-31 19:23:41] INFO ballsdex.core.bot: Loading packages...
+[2025-07-31 19:23:41] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-07-31 19:23:41] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners
+[2025-07-31 19:23:43] INFO ballsdex.core.bot: Synced 12 commands.
+[2025-07-31 19:23:44] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-31 19:48:20] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-31 19:51:39] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-31 22:13:10] INFO ballsdex: Tortoise ORM and database ready.
+[2025-07-31 22:13:10] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-07-31 22:13:10] INFO discord.client: logging in using static token
+[2025-07-31 22:13:10] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-07-31 22:13:11] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 9b20ee559fb92ee1e691188b497df4f6).
+[2025-07-31 22:13:13] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-07-31 22:13:13] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-07-31 22:13:13] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-31 22:13:13] INFO ballsdex.core.bot: Loading packages...
+[2025-07-31 22:13:13] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-07-31 22:13:14] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners
+[2025-07-31 22:13:15] INFO ballsdex.core.bot: Synced 12 commands.
+[2025-07-31 22:13:16] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-07-31 22:17:10] INFO ballsdex.packages.boxes.cog: [WEEKLY PACK] paqueta0866 (1376134700271140874) received bob (Rarity: 0.5) | Account created: 2025-05-25 09:47:59 | Footballer ID: `#1` | Special: Criny
+[2025-07-31 22:17:39] INFO ballsdex.packages.boxes.cog: [DAILY PACK] paqueta0866 (1376134700271140874) received spain (Rarity: 30.0) | Account created: 2025-05-25 09:47:59 | Daily use 1/3 | Footballer ID: `#2` | Special: Criny
+[2025-07-31 22:17:47] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received Special (Rarity: 0.95) | Account created: 2020-08-30 15:56:13 | Daily use 1/3 | Footballer ID: `#6` | Special: Criny
+[2025-07-31 22:18:00] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received spain (Rarity: 30.0) | Account created: 2020-08-30 15:56:13 | Daily use 2/3 | Footballer ID: `#2` | Special: Criny
+[2025-07-31 22:21:11] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-07-31 22:21:17] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-01 23:30:43] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-01 23:30:43] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-01 23:30:43] INFO discord.client: logging in using static token
+[2025-08-01 23:30:44] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-01 23:30:45] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 1dd6ff983a1eae0b96cc02585ad1c127).
+[2025-08-01 23:30:47] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-01 23:30:47] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-01 23:30:47] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-01 23:30:47] INFO ballsdex.core.bot: Loading packages...
+[2025-08-01 23:30:47] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-01 23:30:48] ERROR ballsdex.core.bot: Failed to load package picks
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/code/ballsdex/packages/picks/__init__.py", line 3, in <module>
+    from ballsdex.packages.boxes.cog import Picks
+ImportError: cannot import name 'Picks' from 'ballsdex.packages.boxes.cog' (/code/ballsdex/packages/boxes/cog.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.picks' raised an error: ImportError: cannot import name 'Picks' from 'ballsdex.packages.boxes.cog' (/code/ballsdex/packages/boxes/cog.py)
+[2025-08-01 23:30:48] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners
+[2025-08-01 23:30:49] INFO ballsdex.core.bot: Synced 12 commands.
+[2025-08-01 23:30:50] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-01 23:31:31] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-01 23:32:05] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-01 23:32:05] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-01 23:32:05] INFO discord.client: logging in using static token
+[2025-08-01 23:32:06] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-01 23:32:07] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 2e9be0455f747a7bac9c1b5622b0dcf3).
+[2025-08-01 23:32:09] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-01 23:32:09] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-01 23:32:09] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-01 23:32:09] INFO ballsdex.core.bot: Loading packages...
+[2025-08-01 23:32:09] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-01 23:32:09] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-01 23:32:11] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-01 23:32:12] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-01 23:32:56] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-01 23:33:30] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-01 23:33:30] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-01 23:33:30] INFO discord.client: logging in using static token
+[2025-08-01 23:33:30] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-01 23:33:31] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 3101f718daa7f5b78d2d514d58cf069d).
+[2025-08-01 23:33:33] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-01 23:33:33] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-01 23:33:33] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-01 23:33:33] INFO ballsdex.core.bot: Loading packages...
+[2025-08-01 23:33:33] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-01 23:33:34] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-01 23:33:35] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-01 23:33:36] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-01 23:33:37] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-01 23:34:05] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-01 23:34:05] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-01 23:34:05] INFO discord.client: logging in using static token
+[2025-08-01 23:34:05] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-01 23:34:06] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: daab1b4571e38e06052f722640fb628e).
+[2025-08-01 23:34:08] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-01 23:34:08] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-01 23:34:08] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-01 23:34:08] INFO ballsdex.core.bot: Loading packages...
+[2025-08-01 23:34:08] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-01 23:34:08] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-01 23:34:10] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-01 23:34:11] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-01 23:35:08] INFO ballsdex.packages.picks.cog: [DAILY PICK] paqueta0866 (1376134700271140874) received Special (Rarity: 0.95) | Account created: 2025-05-25 09:47:59 | Daily pick used | Footballer ID: `#6`
+[2025-08-01 23:35:52] INFO ballsdex.packages.picks.cog: [OWNER ADD] chelseaman6 added 20 picks to paqueta0866 (New balance: 20)
+[2025-08-01 23:35:58] INFO ballsdex.packages.picks.cog: [OWNER REMOVE] chelseaman6 removed 1 picks from paqueta0866 (New balance: 19)
+[2025-08-01 23:36:20] INFO ballsdex.packages.picks.cog: [DAILY PICK] chelseaman6 (749658746535280771) received Special (Rarity: 0.95) | Account created: 2020-08-30 15:56:13 | Daily pick used | Footballer ID: `#6`
+[2025-08-01 23:37:21] INFO ballsdex.packages.picks.cog: [OWNER ADD] chelseaman6 added 20 picks to chelseaman6 (New balance: 20)
+[2025-08-01 23:38:18] INFO ballsdex.packages.picks.cog: [WALLET PICK] chelseaman6 (749658746535280771) received test1 (Rarity: 7.0)
+[2025-08-02 21:51:02] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-02 21:51:02] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-02 21:51:02] INFO discord.client: logging in using static token
+[2025-08-02 21:51:03] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-02 21:51:04] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: f60b92b27ec0e3e0dd1880a562f3c5b1).
+[2025-08-02 21:51:06] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-02 21:51:06] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-02 21:51:06] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-02 21:51:06] INFO ballsdex.core.bot: Loading packages...
+[2025-08-02 21:51:06] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-02 21:51:07] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-02 21:51:10] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-02 21:51:11] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-02 21:52:36] INFO ballsdex.packages.picks.cog: [WEEKLY PICK] paqueta0866 (1376134700271140874) received bob (Rarity: 0.5) | Account created: 2025-05-25 09:47:59 Footballer ID: `#1`
+[2025-08-02 21:59:00] INFO ballsdex.packages.picks.cog: [OWNER ADD] chelseaman6 added 20 picks to paqueta0866 (New balance: 20)
+[2025-08-02 21:59:12] INFO ballsdex.packages.picks.cog: [OWNER REMOVE] chelseaman6 removed 1 picks from paqueta0866 (New balance: 19)
+[2025-08-02 22:09:14] INFO ballsdex.packages.picks.cog: [DAILY PICK] paqueta0866 (1376134700271140874) received test1 (Rarity: 7.0) | Account created: 2025-05-25 09:47:59 | Daily pick used | Footballer ID: `#4`
+[2025-08-02 22:17:10] INFO discord.gateway: Shard ID 0 has successfully RESUMED session f60b92b27ec0e3e0dd1880a562f3c5b1.
+[2025-08-02 22:18:50] ERROR ballsdex.core.bot: Error in slash command help
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/info/cog.py", line 179, in help
+    await interaction.response.send_message(embed=embed)
+  File "/usr/local/lib/python3.13/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2025-08-02 22:18:53] CRITICAL ballsdex: Caught unhandled exception in <Task finished name='CommandTree-invoker' coro=<CommandTree._from_interaction.<locals>.wrapper() done, defined at /usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py:1149> exception=NotFound('404 Not Found (error code: 10062): Unknown interaction')>:
+Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/info/cog.py", line 179, in help
+    await interaction.response.send_message(embed=embed)
+  File "/usr/local/lib/python3.13/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'help' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py", line 1151, in wrapper
+    await self._call(interaction)
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py", line 1314, in _call
+    await self.on_error(interaction, e)
+  File "/code/ballsdex/core/bot.py", line 514, in on_application_command_error
+    await send(
+        "An error occured when running the command. Contact support if this persists."
+    )
+  File "/code/ballsdex/core/bot.py", line 455, in send
+    await interaction.response.send_message(content, ephemeral=True)
+  File "/usr/local/lib/python3.13/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2025-08-02 22:19:19] INFO ballsdex.packages.picks.cog: [OWNER ADD] chelseaman6 added 2 picks to chelseaman6 (New balance: 2)
+[2025-08-02 22:19:36] ERROR ballsdex.core.bot: Error in slash command picks wallet
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/picks/cog.py", line 557, in wallet
+    await interaction.response.send_message(embed=embed, ephemeral=False)
+  File "/usr/local/lib/python3.13/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2025-08-02 22:19:42] CRITICAL ballsdex: Caught unhandled exception in <Task finished name='CommandTree-invoker' coro=<CommandTree._from_interaction.<locals>.wrapper() done, defined at /usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py:1149> exception=NotFound('404 Not Found (error code: 10062): Unknown interaction')>:
+Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/picks/cog.py", line 557, in wallet
+    await interaction.response.send_message(embed=embed, ephemeral=False)
+  File "/usr/local/lib/python3.13/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'wallet' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py", line 1151, in wrapper
+    await self._call(interaction)
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py", line 1314, in _call
+    await self.on_error(interaction, e)
+  File "/code/ballsdex/core/bot.py", line 514, in on_application_command_error
+    await send(
+        "An error occured when running the command. Contact support if this persists."
+    )
+  File "/code/ballsdex/core/bot.py", line 455, in send
+    await interaction.response.send_message(content, ephemeral=True)
+  File "/usr/local/lib/python3.13/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2025-08-02 22:20:22] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received portugal (Rarity: 25.0) | Account created: 2020-08-30 15:56:13 | Daily use 1/3 | Footballer ID: `#3`
+[2025-08-02 22:20:22] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received spain (Rarity: 30.0) | Account created: 2020-08-30 15:56:13 | Daily use 2/3 | Footballer ID: `#2`
+[2025-08-02 22:20:23] INFO ballsdex.packages.picks.cog: [DAILY PICK] chelseaman6 (749658746535280771) received test1 (Rarity: 7.0) | Account created: 2020-08-30 15:56:13 | Daily pick used | Footballer ID: `#4`
+[2025-08-02 22:21:21] INFO ballsdex.packages.picks.cog: [WALLET PICK] chelseaman6 (749658746535280771) received Special (Rarity: 0.95)
+[2025-08-03 12:32:35] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-03 12:32:35] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-03 12:32:35] INFO discord.client: logging in using static token
+[2025-08-03 12:32:36] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-03 12:32:36] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 16de6a61d8a970b0af56c6effad33384).
+[2025-08-03 12:32:38] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-03 12:32:39] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-03 12:32:39] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-03 12:32:39] INFO ballsdex.core.bot: Loading packages...
+[2025-08-03 12:32:39] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-03 12:32:39] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-03 12:32:41] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-03 12:32:42] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-03 12:33:48] INFO ballsdex.packages.picks.cog: [DAILY PICK] paqueta0866 (1376134700271140874) received Special (Rarity: 0.95) | Account created: 2025-05-25 09:47:59 | Daily pick used | Footballer ID: `#6`
+[2025-08-03 12:34:00] INFO ballsdex.packages.picks.cog: [OWNER ADD] chelseaman6 added 2 picks to paqueta0866 (New balance: 2)
+[2025-08-05 17:50:23] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-05 17:50:23] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-05 17:50:23] INFO discord.client: logging in using static token
+[2025-08-05 17:50:24] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-05 17:50:24] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 0e1e0460313881afe85d1407e50cb5bd).
+[2025-08-05 17:50:26] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-05 17:50:27] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-05 17:50:27] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-05 17:50:27] INFO ballsdex.core.bot: Loading packages...
+[2025-08-05 17:50:27] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-05 17:50:27] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-05 17:50:29] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-05 17:50:30] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-05 17:51:36] INFO ballsdex.packages.picks.cog: [OWNER ADD] chelseaman6 added 3 picks to Dex bot#9711 (New balance: 3)
+[2025-08-05 17:52:37] INFO ballsdex.packages.picks.cog: [OWNER ADD] chelseaman6 added 6 picks to paqueta0866 (New balance: 6)
+[2025-08-05 17:52:59] INFO ballsdex.packages.picks.cog: [WALLET PICK] paqueta0866 (1376134700271140874) received x3d (Rarity: 30.0)
+[2025-08-05 17:53:34] INFO ballsdex.packages.picks.cog: [DAILY PICK] paqueta0866 (1376134700271140874) received test1 (Rarity: 7.0) | Account created: 2025-05-25 09:47:59 | Daily pick used | Footballer ID: `#4`
+[2025-08-05 17:54:19] INFO ballsdex.packages.picks.cog: [WALLET PICK] paqueta0866 (1376134700271140874) received spain (Rarity: 30.0)
+[2025-08-06 17:42:53] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-06 17:42:53] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-06 17:42:53] INFO discord.client: logging in using static token
+[2025-08-06 17:42:53] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-06 17:42:55] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 48f53a06dfeafd491a71329b15a52a36).
+[2025-08-06 17:42:57] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-06 17:42:57] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-06 17:42:57] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-06 17:42:57] INFO ballsdex.core.bot: Loading packages...
+[2025-08-06 17:42:57] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-06 17:42:57] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-06 17:42:59] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-06 17:43:00] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-06 17:43:52] INFO ballsdex.packages.picks.cog: [DAILY PICK] paqueta0866 (1376134700271140874) received test1 (Rarity: 7.0) | Account created: 2025-05-25 09:47:59 | Daily pick used | Footballer ID: `#4`
+[2025-08-06 17:45:36] INFO ballsdex.packages.boxes.cog: [DAILY PACK] chelseaman6 (749658746535280771) received test1 (Rarity: 7.0) | Account created: 2020-08-30 15:56:13 | Daily use 1/3 | Footballer ID: `#4` | Special: Criny
+[2025-08-06 17:46:11] INFO ballsdex.packages.picks.cog: [OWNER ADD] chelseaman6 added 2000 picks to paqueta0866 (New balance: 2000)
+[2025-08-06 17:46:32] INFO ballsdex.packages.picks.cog: [WEEKLY PICK] paqueta0866 (1376134700271140874) received Special (Rarity: 0.95) | Account created: 2025-05-25 09:47:59 Footballer ID: `#6`
+[2025-08-06 17:47:02] INFO ballsdex.packages.picks.cog: [WALLET PICK] paqueta0866 (1376134700271140874) received test1 (Rarity: 7.0)
+[2025-08-06 17:59:15] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 48f53a06dfeafd491a71329b15a52a36.
+[2025-08-07 18:35:13] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-07 18:35:13] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-07 18:35:13] INFO discord.client: logging in using static token
+[2025-08-07 18:35:14] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-07 18:35:14] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4bac7939781851560526092119a2900f).
+[2025-08-07 18:35:16] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-07 18:35:16] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-07 18:35:17] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-07 18:35:17] INFO ballsdex.core.bot: Loading packages...
+[2025-08-07 18:35:17] ERROR ballsdex.core.bot: Failed to load package bet
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/code/ballsdex/packages/bet/__init__.py", line 3, in <module>
+    from ballsdex.packages.bet.cog import Bet
+  File "/code/ballsdex/packages/bet/cog.py", line 23, in <module>
+    from ballsdex.packages.bet.menu import BetMenu, BulkAddView
+  File "/code/ballsdex/packages/bet/menu.py", line 19, in <module>
+    from ballsdex.packages.bet.display import fill_bet_embed_fields
+  File "/code/ballsdex/packages/bet/display.py", line 23, in <module>
+    from ballsdex.packages.bet.menu import BetMenu, BulkAddView
+ImportError: cannot import name 'BetMenu' from partially initialized module 'ballsdex.packages.bet.menu' (most likely due to a circular import) (/code/ballsdex/packages/bet/menu.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.bet' raised an error: ImportError: cannot import name 'BetMenu' from partially initialized module 'ballsdex.packages.bet.menu' (most likely due to a circular import) (/code/ballsdex/packages/bet/menu.py)
+[2025-08-07 18:35:17] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-07 18:35:17] INFO ballsdex.core.bot: Packages loaded: admin, balls, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-07 18:35:19] INFO ballsdex.core.bot: Synced 12 commands.
+[2025-08-07 18:35:20] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-07 18:35:57] ERROR ballsdex.core.commands: Failed to reload extension bet
+Traceback (most recent call last):
+  File "/code/ballsdex/core/commands.py", line 68, in reload_package
+    await self.bot.reload_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1118, in reload_extension
+    raise errors.ExtensionNotLoaded(name)
+discord.ext.commands.errors.ExtensionNotLoaded: Extension 'bet' has not been loaded.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/commands.py", line 70, in reload_package
+    await self.bot.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1027, in load_extension
+    raise errors.ExtensionNotFound(name)
+discord.ext.commands.errors.ExtensionNotFound: Extension 'bet' could not be loaded or found.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/commands.py", line 68, in reload_package
+    await self.bot.reload_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1118, in reload_extension
+    raise errors.ExtensionNotLoaded(name)
+discord.ext.commands.errors.ExtensionNotLoaded: Extension 'ballsdex.packages.bet' has not been loaded.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/code/ballsdex/packages/bet/__init__.py", line 3, in <module>
+    from ballsdex.packages.bet.cog import Bet
+  File "/code/ballsdex/packages/bet/cog.py", line 23, in <module>
+    from ballsdex.packages.bet.menu import BetMenu, BulkAddView
+  File "/code/ballsdex/packages/bet/menu.py", line 19, in <module>
+    from ballsdex.packages.bet.display import fill_bet_embed_fields
+  File "/code/ballsdex/packages/bet/display.py", line 23, in <module>
+    from ballsdex.packages.bet.menu import BetMenu, BulkAddView
+ImportError: cannot import name 'BetMenu' from partially initialized module 'ballsdex.packages.bet.menu' (most likely due to a circular import) (/code/ballsdex/packages/bet/menu.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/commands.py", line 83, in reload
+    await self.reload_package(package)
+  File "/code/ballsdex/core/commands.py", line 73, in reload_package
+    return await self.reload_package("ballsdex.packages." + package, with_prefix=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/core/commands.py", line 70, in reload_package
+    await self.bot.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.bet' raised an error: ImportError: cannot import name 'BetMenu' from partially initialized module 'ballsdex.packages.bet.menu' (most likely due to a circular import) (/code/ballsdex/packages/bet/menu.py)
+[2025-08-07 18:57:22] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-07 18:58:13] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-07 18:58:13] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-07 18:58:13] INFO discord.client: logging in using static token
+[2025-08-07 18:58:13] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-07 18:58:14] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: a92fd4e5af24ac4b51e1aa790435c73f).
+[2025-08-07 18:58:16] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-07 18:58:16] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-07 18:58:16] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-07 18:58:16] INFO ballsdex.core.bot: Loading packages...
+[2025-08-07 18:58:16] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-07 18:58:15] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-07 18:58:17] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-07 18:58:18] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-07 18:59:23] INFO ballsdex.packages.picks.cog: [OWNER ADD] chelseaman6 added 100 picks to paqueta0866 (New balance: 100)
+[2025-08-07 19:29:19] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-07 19:30:12] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-07 19:30:12] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-07 19:30:12] INFO discord.client: logging in using static token
+[2025-08-07 19:30:13] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-07 19:30:14] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: e43e9fc1d8ce01a940eceff43e2b213d).
+[2025-08-07 19:30:16] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-07 19:30:16] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-07 19:30:16] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-07 19:30:16] INFO ballsdex.core.bot: Loading packages...
+[2025-08-07 19:30:16] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-07 19:30:16] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-07 19:30:19] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-07 19:30:20] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-07 20:12:51] INFO discord.gateway: Shard ID 0 has successfully RESUMED session e43e9fc1d8ce01a940eceff43e2b213d.
+[2025-08-07 20:41:51] INFO discord.gateway: Shard ID 0 has successfully RESUMED session e43e9fc1d8ce01a940eceff43e2b213d.
+[2025-08-07 20:49:03] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-08 13:24:00] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-08 13:24:00] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-08 13:24:00] INFO discord.client: logging in using static token
+[2025-08-08 13:24:00] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-08 13:24:01] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 931e60ac287db2b481f63dbb3f40de26).
+[2025-08-08 13:24:03] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-08 13:24:03] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-08 13:24:04] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-08 13:24:04] INFO ballsdex.core.bot: Loading packages...
+[2025-08-08 13:24:04] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-08 13:24:04] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-08 13:24:06] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-08 13:24:07] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-08 13:47:14] ERROR ballsdex.core.bot: Error in slash command bet begin
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/bet/cog.py", line 162, in begin
+    await interaction.response.send_message("FootballDex Bet started!", ephemeral=True)
+  File "/usr/local/lib/python3.13/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2025-08-08 13:47:16] CRITICAL ballsdex: Caught unhandled exception in <Task finished name='CommandTree-invoker' coro=<CommandTree._from_interaction.<locals>.wrapper() done, defined at /usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py:1149> exception=NotFound('404 Not Found (error code: 10062): Unknown interaction')>:
+Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/code/ballsdex/packages/bet/cog.py", line 162, in begin
+    await interaction.response.send_message("FootballDex Bet started!", ephemeral=True)
+  File "/usr/local/lib/python3.13/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'begin' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py", line 1151, in wrapper
+    await self._call(interaction)
+  File "/usr/local/lib/python3.13/site-packages/discord/app_commands/tree.py", line 1314, in _call
+    await self.on_error(interaction, e)
+  File "/code/ballsdex/core/bot.py", line 514, in on_application_command_error
+    await send(
+        "An error occured when running the command. Contact support if this persists."
+    )
+  File "/code/ballsdex/core/bot.py", line 455, in send
+    await interaction.response.send_message(content, ephemeral=True)
+  File "/usr/local/lib/python3.13/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2025-08-08 14:26:08] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 931e60ac287db2b481f63dbb3f40de26.
+[2025-08-08 14:30:16] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 931e60ac287db2b481f63dbb3f40de26.
+[2025-08-08 14:54:37] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-08 14:55:34] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-08 14:55:34] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-08 14:55:34] INFO discord.client: logging in using static token
+[2025-08-08 14:55:35] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-08 14:55:36] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: c41640ad6ec438ef890fff72dd32ab24).
+[2025-08-08 14:55:38] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-08 14:55:38] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-08 14:55:38] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-08 14:55:38] INFO ballsdex.core.bot: Loading packages...
+[2025-08-08 14:55:38] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-08 14:55:39] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-08 14:55:40] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-08 14:55:42] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-08 14:56:51] INFO ballsdex.packages.picks.cog: [WEEKLY PICK] paqueta0866 (1376134700271140874) received Special (Rarity: 0.95) | Account created: 2025-05-25 09:47:59 Footballer ID: `#6`
+[2025-08-08 14:56:53] INFO ballsdex.packages.picks.cog: [DAILY PICK] paqueta0866 (1376134700271140874) received portugal (Rarity: 25.0) | Account created: 2025-05-25 09:47:59 | Daily pick used | Footballer ID: `#3`
+[2025-08-08 14:57:29] INFO ballsdex.packages.picks.cog: [OWNER ADD] chelseaman6 added 100 picks to paqueta0866 (New balance: 100)
+[2025-08-08 15:13:06] INFO ballsdex.packages.picks.cog: [WALLET PICK] paqueta0866 (1376134700271140874) received spain (Rarity: 30.0)
+[2025-08-08 17:01:55] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-26 21:30:01] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-26 21:30:01] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-26 21:30:01] INFO discord.client: logging in using static token
+[2025-08-26 21:30:01] CRITICAL ballsdex: The main bot task didn't handle an exception and has crashed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/http.py", line 828, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/__main__.py", line 220, in bot_exception_handler
+    bot_task.result()
+    ~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/discord/client.py", line 823, in start
+    await self.login(token)
+  File "/usr/local/lib/python3.13/site-packages/discord/client.py", line 652, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/discord/http.py", line 832, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2025-08-26 21:30:01] WARNING ballsdex: Attempting to die as gracefully as possible...
+[2025-08-26 21:30:01] INFO ballsdex: Shutting down the bot...
+[2025-08-26 21:31:20] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-26 21:31:20] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-26 21:31:20] INFO discord.client: logging in using static token
+[2025-08-26 21:31:20] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-26 21:31:21] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 4224c3df392f988a334dba85cf6fe729).
+[2025-08-26 21:31:23] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-26 21:31:23] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-26 21:31:24] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-26 21:31:24] INFO ballsdex.core.bot: Loading packages...
+[2025-08-26 21:31:24] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-26 21:31:24] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-26 21:31:26] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-26 21:31:28] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-26 21:32:22] WARNING ballsdex.core.bot: Skipping interaction 1410013898656186439, running 31.880772s late.
+[2025-08-26 21:34:48] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-27 19:19:27] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-27 19:19:27] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-27 19:19:27] INFO discord.client: logging in using static token
+[2025-08-27 19:19:27] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-27 19:19:28] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: f484937ecf0d602674d2d1bc24cfbe47).
+[2025-08-27 19:19:30] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-27 19:19:30] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-27 19:19:30] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-27 19:19:30] INFO ballsdex.core.bot: Loading packages...
+[2025-08-27 19:19:31] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-27 19:19:31] ERROR ballsdex.core.bot: Failed to load package boxes
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/code/ballsdex/packages/boxes/__init__.py", line 3, in <module>
+    from ballsdex.packages.boxes.cog import Claim
+  File "/code/ballsdex/packages/boxes/cog.py", line 35, in <module>
+    from ballsdx.core.utils.transformers import (
+    ...<4 lines>...
+    )
+ModuleNotFoundError: No module named 'ballsdx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/code/ballsdex/core/bot.py", line 332, in on_ready
+    await self.load_extension(package)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "/usr/local/lib/python3.13/site-packages/discord/ext/commands/bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'ballsdex.packages.boxes' raised an error: ModuleNotFoundError: No module named 'ballsdx'
+[2025-08-27 19:19:31] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, profiles, broadcast, owners, picks
+[2025-08-27 19:19:34] INFO ballsdex.core.bot: Synced 12 commands.
+[2025-08-27 19:19:36] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-27 19:19:49] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-27 19:20:22] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-27 19:20:22] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-27 19:20:22] INFO discord.client: logging in using static token
+[2025-08-27 19:20:23] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-27 19:20:24] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 0de982eb0656df6cead25dcd5645345f).
+[2025-08-27 19:20:26] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-27 19:20:26] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-27 19:20:26] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-27 19:20:26] INFO ballsdex.core.bot: Loading packages...
+[2025-08-27 19:20:26] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-27 19:20:26] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-27 19:20:28] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-27 19:20:29] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-27 20:30:09] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-27 20:31:01] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-27 20:31:01] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-27 20:31:01] INFO discord.client: logging in using static token
+[2025-08-27 20:31:01] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-27 20:31:02] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 3fdb629593fddab25ee9cc973d08afa0).
+[2025-08-27 20:31:04] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-27 20:31:04] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-27 20:31:04] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-27 20:31:04] INFO ballsdex.core.bot: Loading packages...
+[2025-08-27 20:31:05] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-27 20:31:05] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-27 20:31:08] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-27 20:31:09] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-27 20:39:46] INFO ballsdex.packages.boxes.cog: [MULTI-PACK] paqueta0866 (1376134700271140874) opened 100 packs, got 100 balls with 46 specials
+[2025-08-27 20:41:38] INFO ballsdex.packages.boxes.cog: [MULTI-PACK] chelseaman6 (749658746535280771) opened 100 packs, got 100 balls with 52 specials
+[2025-08-27 21:12:07] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 3fdb629593fddab25ee9cc973d08afa0.
+[2025-08-27 21:35:22] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-28 09:13:14] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-28 09:13:14] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-28 09:13:14] INFO discord.client: logging in using static token
+[2025-08-28 09:13:14] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-28 09:13:15] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: b88f4cc549fecdf45565e17e20bb00a2).
+[2025-08-28 09:13:17] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-28 09:13:17] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-28 09:13:17] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-28 09:13:17] INFO ballsdex.core.bot: Loading packages...
+[2025-08-28 09:13:18] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-28 09:13:18] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-28 09:13:20] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-28 09:13:21] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-28 09:49:54] INFO discord.gateway: Shard ID 0 has successfully RESUMED session b88f4cc549fecdf45565e17e20bb00a2.
+[2025-08-28 10:36:16] INFO discord.gateway: Shard ID 0 has successfully RESUMED session b88f4cc549fecdf45565e17e20bb00a2.
+[2025-08-28 11:01:36] INFO discord.gateway: Shard ID 0 has successfully RESUMED session b88f4cc549fecdf45565e17e20bb00a2.
+[2025-08-28 11:37:18] INFO discord.gateway: Shard ID 0 has successfully RESUMED session b88f4cc549fecdf45565e17e20bb00a2.
+[2025-08-28 12:28:10] INFO discord.gateway: Shard ID 0 has successfully RESUMED session b88f4cc549fecdf45565e17e20bb00a2.
+[2025-08-28 12:30:59] INFO ballsdex: Received SIGTERM, stopping the bot...
+[2025-08-28 12:33:48] INFO ballsdex: Tortoise ORM and database ready.
+[2025-08-28 12:33:48] INFO ballsdex: Initialized bot, connecting to Discord...
+[2025-08-28 12:33:48] INFO discord.client: logging in using static token
+[2025-08-28 12:33:49] INFO ballsdex.core.bot: Starting up with None shards...
+[2025-08-28 12:33:49] INFO discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 9ee2bbc68540bb84568a13f5d94f1183).
+[2025-08-28 12:33:51] INFO ballsdex.core.bot: Successfully logged in as Dex bot#9711 (1398357615821721620)!
+[2025-08-28 12:33:51] INFO ballsdex.core.bot: masterdroid is the owner of this bot.
+[2025-08-28 12:33:52] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-28 12:33:52] INFO ballsdex.core.bot: Loading packages...
+[2025-08-28 12:33:52] INFO ballsdex.packages.countryballs: Loaded 1 guild in cache.
+[2025-08-28 12:33:52] INFO ballsdex.core.bot: Packages loaded: admin, balls, bet, config, countryballs, info, players, trade, boxes, profiles, broadcast, owners, picks
+[2025-08-28 12:33:53] INFO ballsdex.core.bot: Synced 13 commands.
+[2025-08-28 12:33:55] INFO ballsdex.core.bot: Synced 1 admin command for guild 1336717390309888061.
+[2025-08-28 12:34:23] INFO ballsdex.core.bot: Cache loaded, summary displayed below:
+[2025-08-28 15:50:08] INFO discord.gateway: Shard ID 0 has successfully RESUMED session 9ee2bbc68540bb84568a13f5d94f1183.
+[2025-08-28 15:53:29] INFO ballsdex: Received SIGTERM, stopping the bot...
